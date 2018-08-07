@@ -1,0 +1,139 @@
+html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Kreon', serif;
+
+}
+
+body
+{
+	height: 100%;
+	margin: 0;
+	background:url('land.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container
+{
+
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	cursor: default;
+	position: relative;
+	top: 20%;
+
+	height: 50%;
+
+}
+.content
+{
+	cursor: default;
+	width: 49.8%;
+	height: 100%;
+	float: left;
+}
+a 
+{
+text-decoration: none;
+}
+img
+{
+	cursor: default;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 10%;
+	/*border-radius: 75%;*/
+	width: 20%;
+	height: 20%;
+}
+
+.h2
+{
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.h4
+{
+	color: white;
+	cursor: pointer;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+/*@media screen and (min-width: 320px)
+{
+.content
+{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.h2 ,.h4
+{
+	font-size: 16px;
+}
+}
+@media screen and (max-width:768px)
+{
+	.container
+	{
+		top: 30%;
+	}
+	.content
+	{
+		
+		width: 46%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.h2 , .h4
+	{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width:1024px)
+{
+	.container
+	{
+		top: 30%;
+	}
+	.content
+	{
+		
+		width: 46%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+}
+@media screen and (max-width:1440px)
+{
+	.container
+	{
+		top: 30%;
+	}
+	.content
+	{
+		
+		width: 46%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+.h2,.h4
+{
+	font-size: 22px;
+}
+}*/
